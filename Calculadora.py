@@ -5,6 +5,7 @@ def pre():
     global app
     app = Tk()
     app.geometry('370x550')
+    app.config(bg='#F5F5F5')
     app.resizable(False, False)
     app.title('Calculadora')
     app.iconbitmap('o.ico')
