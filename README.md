@@ -2,8 +2,9 @@
     <h1>Calculadora Tk</h1>
     <img src='./Calc.gif' title='Demo da calculadora' width='340px' />
 </div>
+
 ## _Calculadora GUI hecha en Python usando tkinter_
-[![](https://i.ibb.co/DtWdrx4/icon.png)](#py-calculator)
+
 
 [![powered by](https://img.shields.io/badge/Powered%20by-Python%203-blue)](https://www.python.org/)
 [![powered by](https://img.shields.io/badge/Powered%20by-Tkinter-red)](https://docs.python.org/3/library/tkinter.html)
@@ -16,8 +17,6 @@ Py-Calculadora. es una aplicación de calculadora GUI con todas las funcionalida
 Puede ejecutarse en cualquier sistema que ejecute Python 3 o superior y tenga la biblioteca tkinter.
 
 Instantánea del programa que se ejecuta en entorno Linux y Windows:
-
-[![]([https://i.ibb.co/jRLBydC/Calc.gif])
 
 ## Características 
 
