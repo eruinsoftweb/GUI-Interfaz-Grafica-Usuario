@@ -1,9 +1,10 @@
 <div align='center'>
     <h1>Calculadora Tk</h1>
-    <img src='./Calc.gif' title='Demo da calculadora' width='340px' />
+    <img src='./Calc.gif' title='Demo da calculadora' width='300px' />
 </div>
+
 ## _Calculadora GUI hecha en Python usando tkinter_
-[![](https://i.ibb.co/DtWdrx4/icon.png)](#py-calculator)
+
 
 [![powered by](https://img.shields.io/badge/Powered%20by-Python%203-blue)](https://www.python.org/)
 [![powered by](https://img.shields.io/badge/Powered%20by-Tkinter-red)](https://docs.python.org/3/library/tkinter.html)

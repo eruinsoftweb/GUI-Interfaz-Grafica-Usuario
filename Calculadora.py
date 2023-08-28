@@ -443,23 +443,23 @@ def f9(): inp.insert(len(inp.get()), 9)
 def buttons():
 
     xVar = 35; yVar = 150
-    btn = Button(app, text='%', font=('Century Gothic', 13), height=2, width=7, command=percent)
+    btn = Button(app, text='%', font=('Century Gothic', 13), height=2, width=7, command=percent, bg="#ffe46b", activebackground="#d0c6f5")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='C', font=('Century Gothic', 13), height=2, width=7, command=clear)
+    btn = Button(app, text='C', font=('Century Gothic', 13), height=2, width=7, command=clear, bg="#ffe46b", activebackground="#d0c6f5")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='CE', font=('Century Gothic', 13), height=2, width=7, command=ce)
+    btn = Button(app, text='CE', font=('Century Gothic', 13), height=2, width=7, command=ce, bg="#ffe46b", activebackground="#d0c6f5")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='<-', font=('Century Gothic', 13), height=2, width=7, command=clearX)
+    btn = Button(app, text='<-', font=('Century Gothic', 13), height=2, width=7, command=clearX, bg="#ffe46b", activebackground="#6699ff")
     btn.place(x=int(xVar), y=int(yVar))
 
     xVar = 35; yVar += 55
-    btn = Button(app, text='1/x', font=('Century Gothic', 13), height=2, width=7, command=inv)
+    btn = Button(app, text='1/x', font=('Century Gothic', 13), height=2, width=7, command=inv, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='^', font=('Century Gothic', 13), height=2, width=7, command=puissance)
+    btn = Button(app, text='^', font=('Century Gothic', 13), height=2, width=7, command=puissance, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='Mod', font=('Century Gothic', 13), height=2, width=7, command=mod)
+    btn = Button(app, text='Mod', font=('Century Gothic', 13), height=2, width=7, command=mod, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='/', font=('Century Gothic', 13), height=2, width=7, command=div)
+    btn = Button(app, text='/', font=('Century Gothic', 13), height=2, width=7, command=div, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar))
 
     xVar = 35; yVar += 55
@@ -469,7 +469,7 @@ def buttons():
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
     btn = Button(app, text='9', font=('Century Gothic', 13), height=2, width=7, command=f9)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='x', font=('Century Gothic', 13), height=2, width=7, command=mul)
+    btn = Button(app, text='x', font=('Century Gothic', 13), height=2, width=7, command=mul, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar))
 
     xVar = 35; yVar += 55
@@ -479,17 +479,17 @@ def buttons():
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
     btn = Button(app, text='6', font=('Century Gothic', 13), height=2, width=7, command=f6)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='-', font=('Century Gothic', 13), height=2, width=7, command=sous)
+    btn = Button(app, text='-', font=('Century Gothic', 13), height=2, width=7, command=sous, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar))
 
     xVar = 35; yVar += 55
     btn = Button(app, text='1', font=('Century Gothic', 13), height=2, width=7, command=f1)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='2', font=('Century Gothic', 13), height=2, width=7, command=f2)
+    btn = Button(app, text='2', font=('Century Gothic', 13), height=2, width=7, command=f2,)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
     btn = Button(app, text='3', font=('Century Gothic', 13), height=2, width=7, command=f3)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='+', font=('Century Gothic', 13), height=2, width=7, command=add)
+    btn = Button(app, text='+', font=('Century Gothic', 13), height=2, width=7, command=add, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar))
 
     xVar = 35; yVar += 55
@@ -499,8 +499,9 @@ def buttons():
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
     btn = Button(app, text=',', font=('Century Gothic', 13), height=2, width=7, command=virg)
     btn.place(x=int(xVar), y=int(yVar)); xVar+=75
-    btn = Button(app, text='=', font=('Century Gothic', 13), height=2, width=7, command=eq)
+    btn = Button(app, text='=', font=('Century Gothic', 13), height=2, width=7, command=eq, bg="#d0c6f5", activebackground="#ffe46b")
     btn.place(x=int(xVar), y=int(yVar))
+
 
 def Menu():
     pre()
