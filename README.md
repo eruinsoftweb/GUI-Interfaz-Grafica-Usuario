@@ -18,8 +18,6 @@ Puede ejecutarse en cualquier sistema que ejecute Python 3 o superior y tenga la
 
 Instantánea del programa que se ejecuta en entorno Linux y Windows:
 
-[![]([https://i.ibb.co/jRLBydC/Calc.gif])
-
 ## Características 
 
 - Peso ligero
